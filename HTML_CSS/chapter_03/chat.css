@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    background-color: rgb(55, 55, 55);
+}
+
+.chat_screen {
+    height: calc(100% - 120px);
+}
+
+.user{
+    background-color: rgb(142, 142, 142);
+    padding: 16px;
+    height: 80px;
+}
+
+.user_colum {
+    float: left;
+}
+.user_pic{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.user_nick, .user_count{
+    margin: 5px;
+}
+.user_count{
+    font-size: 12px;
+    color: rgb(204, 204, 204);
+    text-shadow: 1px 1px 3px black;
+}
+.user_nick{
+    color: whitesmoke;
+    text-shadow: 1px 1px 3px black;
+}
+
+.chat-form{
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+}
+
+.chat-form_field{
+    height: 80px;
+}
+
+.chat-form_msg{
+    float: left;
+    width: calc(100% - 120px);
+    height: 60px;
+    border: 0.5px solid #e3e3e3;
+    
+    resize: none;
+    font-size: 20px;
+    border-radius:10px ;
+    margin: 10px 15px 10px 15px ;
+}
+
+.chat-form_bt{
+    float: right;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(142, 142, 142);
+    font-size: 15px;
+    margin: 10px 15px 10px 0px ;
+    border: none;
+}
+
+.chat-form_bt:active {
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
