@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+
+}
+
+html{
+    background-color: rgba(0, 0, 0, 0.66);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+mark{
+    background-color: rgb(49, 49, 49);
+    color: rgb(65, 65, 65);
+    
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0,0,0);
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+img {
+    border-radius: 0.5pc;
+    border: 2px solid;
+    box-shadow: -1px -1px 0 black,
+    1px -1px 0 black,
+   -1px  1px 0 black,
+    1px  1px 0 black;;
+}
+
+h2{
+    font-family: "Anton", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-shadow: 
+      -1px -1px 0 black,
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+    
+}
+
+em {
+    font-size: 12px;
+}
+
+strong {
+    color: rgb(183, 183, 183);
+}
+
